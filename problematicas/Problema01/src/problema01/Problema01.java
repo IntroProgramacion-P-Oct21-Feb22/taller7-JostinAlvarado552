@@ -53,9 +53,9 @@ public class Problema01 {
             cadenaacumulativa3 = String.format("%s\nPromedio de edades:%.2f\nPromedio de estaturas:%.2f", cadenaacumulativa2, promedad, promestat);
             entrada.nextLine();
 
-            System.out.println("Ingrese Si para salir del ciclo, caso contrario ingrese no");
+            System.out.println("Ingrese (si) para continuar ingresando datos, caso contrario ingrese no");
             salida = entrada.nextLine();
-            if (salida.equals("Si")) {
+            if ((salida.equals("si"))&&(salida.equals("SI"))&&(salida.equals("Si"))){
                 bandera = false;
             } else {
                 bandera = true;
